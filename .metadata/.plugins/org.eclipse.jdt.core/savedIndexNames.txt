@@ -1,0 +1,1 @@
+INDEX VERSION 1.134+P:\Git\IG-Assignments\.metadata\.plugins\org.eclipse.jdt.core

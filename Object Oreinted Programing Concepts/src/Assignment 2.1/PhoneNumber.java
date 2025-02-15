@@ -70,7 +70,7 @@ public class PhoneNumber {
         System.out.println(phone1.equals(phone3));
 
         try {
-            PhoneNumber invalidPhone = new PhoneNumber("12", "555", "1212");
+            new PhoneNumber("12", "555", "1212");
         } catch (IllegalArgumentException e) {
             System.out.println("Error creating phone number: " + e.getMessage());
         }

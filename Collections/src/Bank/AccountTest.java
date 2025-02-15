@@ -3,11 +3,10 @@
 public class AccountTest {
 
 	public AccountTest() {
-		// TODO Auto-generated constructor stub
+		
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Account a= new Account(69,"Phantom",9000.0);
 		AccountService services= new AccountService();
 		services.addAccount(a);

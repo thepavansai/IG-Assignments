@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="Bank/" kind="src" path="Collections/src"/>
+	<classpathentry kind="src" path="Collections/src/Bank"/>
+	<classpathentry excluding="stackexceptions/|Activity/" kind="src" path="Exceptions/src"/>
+	<classpathentry kind="src" path="Exceptions/src/Activity"/>
+	<classpathentry kind="src" path="Exceptions/src/stackexceptions"/>
+	<classpathentry kind="src" path="Object Oreinted Programing Concepts/src/Assignment 2.1"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
