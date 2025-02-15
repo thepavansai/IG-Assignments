@@ -1,4 +1,3 @@
-package Activity;
 
 public class ActivityMain {
 	

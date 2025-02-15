@@ -1,4 +1,4 @@
-package Activity;
+
 
 public class Activity {
 	private String string1;
