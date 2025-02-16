@@ -1,0 +1,13 @@
+Mumbai,Maharashtra
+Delhi,Delhi
+Bengaluru,Karnataka
+Hyderabad,Telangana
+Visakhapatnam,Andhra Pradesh
+Vijayawada,Andhra Pradesh
+Amaravati,Andhra Pradesh
+Chennai,Tamil Nadu
+Kolkata,West Bengal
+Pune,Maharashtra
+Jaipur,Rajasthan
+Ahmedabad,Gujarat
+Surat,Gujarat
