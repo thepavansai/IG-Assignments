@@ -7,30 +7,28 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 class ProductService{
-
-    // list Highest priced product
+	// list Highest priced product
 	public Product highestPrice(List<Product> plist) {
 		return plist.stream().max(Comparator.comparingDouble(Product::getPrice)).orElse(null);
 		
 	}
+	//list lowest priced product
 	public Product lowestPrice(List<Product> plist) {
 		return plist.stream().min(Comparator.comparingDouble(Product::getPrice)).orElse(null);
 		
 	}
 	
-   //list lowest priced product
-   
-   //list  product that already expired
+   	//list  product that already expired
 	public List<Product> aLreadyExpiredProduct(List<Product>plist) {
 		return plist.stream().filter(p->p.getExpiryDate().isBefore(LocalDate.now())).collect(Collectors.toList());
 	}
  
-  //list product names list that will expire in next 10 days
+ 	 //list product names list that will expire in next 10 days
 	public List<Product> Expirein10DaysProduct(List<Product>plist) {
 		return plist.stream().filter(p->p.getExpiryDate().isBefore(LocalDate.now().plusDays(10))&& p.getExpiryDate().isAfter(LocalDate.now())).collect(Collectors.toList());
 	}
 
-  // display count of  products of different types
+ 	 // display count of  products of different types
 	public Long diffProducts(List<Product> plist) {
 		return (long) plist.stream().map(Product::getType).collect(Collectors.toSet()).size();
 	}
