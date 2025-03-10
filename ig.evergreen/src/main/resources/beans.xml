@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd"
+		default-lazy-init="true">
+<!--making to non singleton
+init-method="start" destroy-method="stop"  scope="prototype"
+making to protype
+-->
+<bean id="o" class="com.ig.evergreen.beans.Order" init-method="start" destroy-method="stop"  scope="prototype" >
+
+	<!--using constructor -->
+	<constructor-arg index="0" value="101"/>
+	
+	<constructor-arg index="1" value="101.99"/>
+
+</bean>
+
+<bean id="c" class="com.ig.evergreen.beans.Customer">
+	<!--using setters and getters-->
+	<property name="name" value="x"/>
+	<property name="email" value="y"></property>
+	</bean>
+</beans>
