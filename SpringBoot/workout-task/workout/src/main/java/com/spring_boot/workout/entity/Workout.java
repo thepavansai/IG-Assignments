@@ -14,7 +14,7 @@ import lombok.NoArgsConstructor;
 
 @Entity(name="workout")
 @Data
-@NoArgsConstructor
+
 @AllArgsConstructor
 public class Workout {
 	//@Id

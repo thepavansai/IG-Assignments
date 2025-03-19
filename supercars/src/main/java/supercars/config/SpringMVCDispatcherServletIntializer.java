@@ -1,5 +1,7 @@
 package supercars.config;
 
+import javax.servlet.jsp.jstl.core.Config;
+
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
 public class SpringMVCDispatcherServletIntializer extends AbstractAnnotationConfigDispatcherServletInitializer {
