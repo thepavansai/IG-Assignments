@@ -5,6 +5,8 @@ import Calc from './Calc'
 import Foo from './Foo'
 import Headers from './Header'
 import Mobile from './Mobile'
+import PropThings from './PropThings'
+import ValidateForm from './ValidateForm'
 function App() {
   // const [count, setCount] = useState(0)
 
@@ -41,7 +43,9 @@ function App() {
     //   <Boo/>
     // </div>
     // <Calc/>
-    <Mobile/>
+    // <Mobile/>
+    // <PropThings/>
+    <ValidateForm/>
   )
 }
 
