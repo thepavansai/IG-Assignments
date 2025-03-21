@@ -1,10 +1,11 @@
 // 0
 import './App.css'
+import Axiosapi from './Http/Axiosapi'
 import Boo from './Boo'
 import Calc from './Calc'
 import Foo from './Foo'
 import Headers from './Header'
-import Mobile from './Mobile'
+import Mobile from '../../../React Tasks/task 1/Mobile'
 import PropThings from './PropThings'
 import ValidateForm from './ValidateForm'
 function App() {
@@ -45,7 +46,9 @@ function App() {
     // <Calc/>
     // <Mobile/>
     // <PropThings/>
-    <ValidateForm/>
+        //axios.get('https://jsonplaceholder.typicode.com/users')
+     <Axiosapi/>
+    // <ValidateForm/>
   )
 }
 
