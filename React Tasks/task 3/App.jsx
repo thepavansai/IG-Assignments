@@ -9,7 +9,7 @@ import Headers from './Header'
 import Mobile from '../../../React Tasks/task 1/Mobile'
 import PropThings from './PropThings'
 import ValidateForm from './ValidateForm'
-import Home from '../../../React Tasks/task 3/Home';
+import Home from './task 2/Home';
 import Signup from './task 2/Signup';
 import Login from './task 2/Login';
 function App() {

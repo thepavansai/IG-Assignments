@@ -9,7 +9,7 @@ function Signup() {
     const [city, setCity] = useState(null)
     const handleSubmit = event => {
         event.preventDefault()
-        if(customerId===null ||name==null||email===null||gender==null||city==null){
+        if(customerId===null ||name==email===gender==city==null){
             alert("Fill all the deatils in Sign Up form")
         }else{
         const data = {

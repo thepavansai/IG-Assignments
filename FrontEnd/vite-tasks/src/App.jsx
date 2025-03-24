@@ -2,11 +2,12 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Counter from './Counter'
-import Increment from './Increment'
-import MapRelated from './MapRealted'
-import Login from './Login'
-import Signup from './Signup'
+// import Counter from './Counter'
+// import Increment from './Increment'
+// import MapRelated from './MapRealted'
+// import Login from './Login'
+// import Signup from './Signup'
+import HOCList from './task 3/HOCList'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -38,10 +39,10 @@ function App() {
     // <Increment/>
     //<MapRelated/>
     // 
-    <><Login/>
+    // <><Login/>
     
-    <Signup/></>
-   
+    // <Signup/></>
+   <HOCList/>
 
   )
 }
